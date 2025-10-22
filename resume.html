@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunaina | Resume</title>
+
+  <style>
+    /* === Base Style === */
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #fce4ec, #e3f2fd);
+      color: #2c004d;
+      text-align: center;
+    }
+
+    /* === Navbar === */
+    nav {
+      background: thistle;
+      color: purple;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    nav .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      background: PaleVioletRed;
+      padding: 8px 15px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      background: plum;
+      transform: scale(1.05);
+    }
+
+    /* === Main Container === */
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: purple;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #4b0082;
+      margin-bottom: 5px;
+    }
+
+    p {
+      color: #333;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 8px 0;
+      color: #333;
+    }
+
+    /* === Section Styling === */
+    .section {
+      background: #f8e9ff;
+      border-left: 6px solid PaleVioletRed;
+      margin: 25px 0;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: left;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #8b008b;
+    }
+
+    /* === Skills Grid === */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .skill-box {
+      background: #fff0f6;
+      border: 2px solid thistle;
+      border-radius: 10px;
+      padding: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .skill-box h3 {
+      margin-top: 0;
+      color: #800080;
+      font-size: 1em;
+    }
+
+    /* === Project Cards === */
+    .project {
+      background: #fef6e4;
+      border-left: 6px solid #ffb6c1;
+      border-radius: 10px;
+      padding: 10px 15px;
+      margin: 10px 0;
+    }
+
+    /* === Footer === */
+    footer {
+      margin-top: 40px;
+      background: rgba(255,255,255,0.8);
+      padding: 15px;
+      color: #333;
+      font-size: 14px;
+      box-shadow: 0 -3px 10px rgba(0,0,0,0.05);
+    }
+
+    /* === Responsive === */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">🌸 Sunaina</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="biodata.html">Bio-data</a>
+    </div>
+  </nav>
+
+  <!-- Resume Content -->
+  <div class="container">
+    <h1>Sunaina Ravi</h1>
+    <p>
+      <a href="mailto:sunainaravi10@gmail.com">sunainaravi10@gmail.com</a> |
+       8660945367 |
+      <a href="https://www.linkedin.com/in/sunaina-ravi-379257308/" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/Suunaina" target="_blank">GitHub</a>
+    </p>
+
+    <div class="section">
+      <h2>Career Objective</h2>
+      <p>I aim to apply my technical skills and passion for space technology to contribute to innovative and impactful projects that make a difference in the field of engineering.</p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><b>B.E. – Computer Science Engineering</b>, Jyothy Institute of Technology (VTU) — CGPA: 8.75 → 9.15 → 8.86 → 8.74</li>
+        <li><b>2nd PUC</b> – Sri Kumarans Children’s Home — 91%</li>
+        <li><b>10th ICSE</b> – Carmel School — 88.96%</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h3>Programming</h3>
+          <p>C, C++, Java, Python, Verilog HDL</p>
+        </div>
+        <div class="skill-box">
+          <h3>Web Development</h3>
+          <p>HTML5, CSS3, JavaScript</p>
+        </div>
+        <div class="skill-box">
+          <h3>Databases</h3>
+          <p>SQL, MongoDB</p>
+        </div>
+        <div class="skill-box">
+          <h3>Tools & IDEs</h3>
+          <p>VS Code, ModelSim</p>
+        </div>
+        <div class="skill-box">
+          <h3>Operating Systems</h3>
+          <p>Windows, Ubuntu, Linux</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <div class="project">
+        <h3>🌸 Vanilla Kart – Web Development Intern (Sep ’24 – Dec ’24)</h3>
+        <ul>
+          <li>Developed responsive websites using HTML5, CSS3, JavaScript, and Bootstrap.</li>
+          <li>Integrated third-party APIs and implemented SEO best practices.</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h3>🌸 Vanilla Kart – Digital Marketing Intern (Sep ’24 – Dec ’24)</h3>
+        <ul>
+          <li>Assisted in updating and maintaining company website content.</li>
+          <li>Performed keyword research and optimized website text for visibility.</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h3>🌸 AICTE NITTE – Internship (Aug ’24 – Dec ’24)</h3>
+        <p>Worked on practical AI/ML applications and collaborated on real-time technical projects.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Academic Projects</h2>
+      <div class="project">
+        <h3>💡 IoT Based Automatic Toll System</h3>
+        <p>Designed a toll system using IoT sensors to detect vehicles and automate gate operations.</p>
+      </div>
+      <div class="project">
+        <h3>💡 DBMS Based Bus Reservation System</h3>
+        <p>Created a database-driven bus booking system with admin and client interfaces.</p>
+      </div>
+      <div class="project">
+        <h3>💡 Smart Car Parking System (Arduino)</h3>
+        <p>Led a team of 4 to develop an efficient IoT-based parking solution using Arduino UNO.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Infosys Springboard – Introduction to UI/UX (Apr 2025)</li>
+        <li>Introduction to GenAI and Prompting</li>
+        <li>Software Engineering and Agile Software Development</li>
+        <li>Internship - CodeAlpha</li>
+
+
+
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Strengths</h2>
+      <ul>
+        <li>Curious and passionate about exploring new technologies.</li>
+        <li>Strong interest in AI and space-based innovations.</li>
+        <li>Team player with solid analytical and problem-solving skills.</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>© 2025 Sunaina | Crafted with 💜 and ☕</footer>
+</body>
+</html>
